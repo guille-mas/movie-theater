@@ -1,0 +1,20 @@
+version: '3'
+services:
+  movie-theater:
+    image: guillermomaschwitz/${PROJECT_NAME}:${PROJECT_VERSION}-development
+    container_name: development
+    volumes:
+      - ./${PROJECT_NAME}:/home/node/${PROJECT_NAME}
+    networks:
+      net: {}
+    ports:
+      - ${PORT}:${PORT}
+      - 9229:9229 # debug port
+    env_file:
+    - .env
+
+networks:
+  net:
+    driver: bridge
+    ipam:
+      driver: default
