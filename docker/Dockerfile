@@ -14,5 +14,4 @@ CMD yarn start
 
 FROM prod as dev
 ENV NODE_ENV=development
-RUN yarn install
 EXPOSE 9229
