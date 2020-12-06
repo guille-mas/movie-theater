@@ -4,7 +4,8 @@ export DOCKER_BUILDKIT=1
 
 # starts a local production demo
 demo:
-	docker run --rm -p ${PORT}:${PORT} guillermomaschwitz/${PROJECT_NAME}:${PROJECT_VERSION}-production
+	docker run -p ${PORT}:${PORT} --name ${PROJECT_NAME}-demo \
+		guillermomaschwitz/${PROJECT_NAME}:${PROJECT_VERSION}-production
 
 # start development environment
 start:
@@ -34,9 +35,8 @@ build:
 		--build-arg PROJECT_NAME=${PROJECT_NAME} \
 		./${PROJECT_NAME}
 
-# install yarn vendors in binded volume
+# install third party libraries required by dev environment
 setup:
-	# install yarn libraries locally from a containerized environment
 	docker-compose run --rm ${PROJECT_NAME} yarn install
 
 # wipe any docker image and containers

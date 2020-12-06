@@ -11,7 +11,7 @@ services:
       - ${PORT}:${PORT}
       - 9229:9229 # debug port
     env_file:
-    - .env
+      - .env
 
 networks:
   net:
