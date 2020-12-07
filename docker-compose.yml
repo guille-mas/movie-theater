@@ -2,7 +2,7 @@ version: '3'
 services:
   movie-theater:
     image: guillermomaschwitz/${PROJECT_NAME}:${PROJECT_VERSION}-development
-    container_name: development
+    container_name: ${PROJECT_NAME}-development
     volumes:
       - ./${PROJECT_NAME}:/home/node/${PROJECT_NAME}
     networks:

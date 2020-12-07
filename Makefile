@@ -4,7 +4,7 @@ export DOCKER_BUILDKIT=1
 
 # starts a local production demo
 demo:
-	docker run -p ${PORT}:${PORT} --name ${PROJECT_NAME}-demo \
+	docker run --rm -p ${PORT}:${PORT} --name ${PROJECT_NAME}-demo \
 		guillermomaschwitz/${PROJECT_NAME}:${PROJECT_VERSION}-production
 
 # start development environment
@@ -17,9 +17,16 @@ stop:
 
 # run any command inside an ephemeral container
 run:
-	@read -p "Write a command to run inside your docker environment: " command; \
+	@read -p "Write a command to run inside a disposable development container: " command; \
 		docker-compose run --rm ${PROJECT_NAME} \
 			sh -c "$$command"
+
+# run any command inside an ephemeral container
+exec:
+	@read -p "Write a command to run inside a disposable development container: " command; \
+		docker-compose exec ${PROJECT_NAME} \
+			bash -c "$$command"
+
 
 # build docker images
 build:

@@ -1,0 +1,384 @@
+{
+    "page": 1,
+    "results": [
+        {
+            "adult": false,
+            "backdrop_path": "/iaLu7WlCaK3jy2wz0uDcqiJxCd9.jpg",
+            "genre_ids": [
+                12,
+                878,
+                28
+            ],
+            "id": 299687,
+            "original_language": "en",
+            "original_title": "The 5th Wave",
+            "overview": "16-year-old Cassie Sullivan tries to survive in a world devastated by the waves of an alien invasion that has already decimated the population and knocked mankind back to the Stone Age.",
+            "popularity": 34.565,
+            "poster_path": "/37vpRkrD4OxQN0MQ7C59eszkylh.jpg",
+            "release_date": "2016-01-14",
+            "title": "The 5th Wave",
+            "video": false,
+            "vote_average": 5.9,
+            "vote_count": 4513
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/zFjL6CurOHiWb4Am4nzVHul28KH.jpg",
+            "genre_ids": [
+                28,
+                35
+            ],
+            "id": 695596,
+            "original_language": "en",
+            "original_title": "Malibu Rescue: The Next Wave",
+            "overview": "It’s summer again, and everyone’s favorite Junior Rescuers, The Flounders, are back at Tower 2. With the International Junior Rescue Championships headed to Southern California, the eyes of the entire planet are on Malibu Beach. But when Team USA falls victim to a bout of food poisoning, it’s up to Tyler, Dylan, Eric, Lizzie and Gina to represent their country in the world's most extreme lifeguard challenge!",
+            "popularity": 42.542,
+            "poster_path": "/7B1gSxMdgZCCJcMRgo65T5lByMw.jpg",
+            "release_date": "2020-08-04",
+            "title": "Malibu Rescue: The Next Wave",
+            "video": false,
+            "vote_average": 6.9,
+            "vote_count": 56
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/EkVL43L6T6cid6cVTejF8xzaNE.jpg",
+            "genre_ids": [
+                878
+            ],
+            "id": 619263,
+            "original_language": "en",
+            "original_title": "The Wave",
+            "overview": "A man on the verge of a promotion takes a mysterious hallucinogenic drug that begins to tear down his reality and expose his life for what it really is.",
+            "popularity": 8.207,
+            "poster_path": "/rWFHGTfCOzMphfJW3DPdfbq7Vyp.jpg",
+            "release_date": "2019-09-21",
+            "title": "The Wave",
+            "video": false,
+            "vote_average": 5.5,
+            "vote_count": 40
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/iAOUWxyYd8JReUaakeBYCnIEfKS.jpg",
+            "genre_ids": [],
+            "id": 190979,
+            "original_language": "en",
+            "original_title": "ECW Heat Wave 2000",
+            "overview": "Justin Credible takes on Tommy Dreamer in the main event in a Stairway to Hell Match. Rhino defends the ECW Television Championship against The Sandman. Tajiri, Little Guido, Super Crazy, and Psicosis collide in an Extreme 4-Way Match. Jerry Lynn battles Steve Corino and more.",
+            "popularity": 15.07,
+            "poster_path": "/lPNAcsjbUH0yV5sPrEgJp9DjjWD.jpg",
+            "release_date": "2000-07-16",
+            "title": "ECW Heat Wave 2000",
+            "video": true,
+            "vote_average": 9.4,
+            "vote_count": 4
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                18,
+                10751,
+                10770
+            ],
+            "id": 31074,
+            "original_language": "en",
+            "original_title": "The Wave",
+            "overview": "A teacher plays a mental game with some of his students. Based on a true story.",
+            "popularity": 7.114,
+            "poster_path": "/lNIBan9ZMnQGoJ0Pbvz0xAlE5ki.jpg",
+            "release_date": "1981-10-04",
+            "title": "The Wave",
+            "video": false,
+            "vote_average": 7.2,
+            "vote_count": 71
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/qASObnfUQXAonFUpYVcAcuwt4U5.jpg",
+            "genre_ids": [
+                35,
+                10749,
+                10770
+            ],
+            "id": 317114,
+            "original_language": "en",
+            "original_title": "Bridal Wave",
+            "overview": "With her wedding day rapidly approaching, an anxious bride-to-be has doubts about her pending marriage. At a romantic island resort, she encounters a handsome kindred spirit and must now decide if her \"perfect\" fiancé is really her true love.",
+            "popularity": 6.388,
+            "poster_path": "/yZMUAsU9MxTDls737iU23XeywND.jpg",
+            "release_date": "2015-10-08",
+            "title": "Bridal Wave",
+            "video": false,
+            "vote_average": 6.4,
+            "vote_count": 56
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/3PlHbkANRZRcIYPi5sPLvb4oGAM.jpg",
+            "genre_ids": [
+                28,
+                12,
+                35,
+                27,
+                878,
+                53
+            ],
+            "id": 623464,
+            "original_language": "en",
+            "original_title": "Zombie Tidal Wave",
+            "overview": "A fisherman contends with an ocean-borne outbreak that threatens his seaside island community.",
+            "popularity": 7.207,
+            "poster_path": "/qQbCDwWjxlsQzJUuf89IKOeBpdX.jpg",
+            "release_date": "2019-08-17",
+            "title": "Zombie Tidal Wave",
+            "video": false,
+            "vote_average": 5.5,
+            "vote_count": 11
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/sPJmwvy9z5IpjdEXoYG6zxd7LO7.jpg",
+            "genre_ids": [
+                18,
+                9648,
+                53
+            ],
+            "id": 72277,
+            "original_language": "en",
+            "original_title": "The Last Wave",
+            "overview": "Australian lawyer David Burton agrees with reluctance to defend a group of aborigines charged with murdering one of their own. He suspects the victim was targeted for violating a tribal taboo, but the defendants deny any tribal association. Burton, plagued by apocalyptic visions of water, slowly realizes danger may come from his own involvement with the aborigines and their prophecies.",
+            "popularity": 6.501,
+            "poster_path": "/7UwdJ0EMXirUuNFaohfK023Nuyr.jpg",
+            "release_date": "1977-01-01",
+            "title": "The Last Wave",
+            "video": false,
+            "vote_average": 6.9,
+            "vote_count": 94
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/nEaAH98pXr6yrnJla1XebklYpIE.jpg",
+            "genre_ids": [],
+            "id": 139544,
+            "original_language": "en",
+            "original_title": "ECW Heat Wave 1999",
+            "overview": "Taz puts the ECW World Heavyweight Championship on the line against Tajiri. In the main event, rivals Rob Van Dam & Jerry Lynn join forces to take on The Impact Players Justin Credible & Lance Storm. Plus, Balls Mahoney & Spike Dudley face The Dudley Boyz for the ECW Tag Team Championship and more.",
+            "popularity": 7.552,
+            "poster_path": "/cjXKu1BhPwqg8swV5iY6i20Akuk.jpg",
+            "release_date": "1999-07-18",
+            "title": "ECW Heat Wave 1999",
+            "video": true,
+            "vote_average": 10,
+            "vote_count": 1
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                35
+            ],
+            "id": 218669,
+            "original_language": "en",
+            "original_title": "Wave Babes",
+            "overview": "Three long time girlfriends meet up for a weekend at their old beach hangout. There they re-visit the past, face their present and look forward to the future.",
+            "popularity": 4.131,
+            "poster_path": "/6IPVoegpAZWxJxkMt8Zs6ARteDs.jpg",
+            "release_date": "2003-05-07",
+            "title": "Wave Babes",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                12,
+                35
+            ],
+            "id": 27294,
+            "original_language": "en",
+            "original_title": "Crime Wave",
+            "overview": "A young director intent on making \"the greatest color crime movie ever\" can't seem to finish his script--he has a beginning and an end, but he can't quite figure out the middle. The daughter of his landlord, excited to have a real \"movie person\" living nearby, tries to help by putting him in touch with a man who wants to collaborate on a script--the strange \"Dr. Jolly\"",
+            "popularity": 3.858,
+            "poster_path": "/zai6RzrHxd9TwgDkUEVsr3NsLJb.jpg",
+            "release_date": "1985-04-12",
+            "title": "Crime Wave",
+            "video": false,
+            "vote_average": 6.1,
+            "vote_count": 11
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/cdxcosZOWH5lg2hFYSZ7rF6gQFI.jpg",
+            "genre_ids": [
+                80
+            ],
+            "id": 19618,
+            "original_language": "en",
+            "original_title": "Crime Wave",
+            "overview": "Reformed parolee Steve Lacey is caught in the middle when a wounded former cellmate seeks him out for shelter. The other two former cellmates then attempt to force him into doing a bank job.",
+            "popularity": 3.808,
+            "poster_path": "/n5ITULWUe6iQ785aWFEcBy5J9cX.jpg",
+            "release_date": "1953-10-22",
+            "title": "Crime Wave",
+            "video": false,
+            "vote_average": 6.9,
+            "vote_count": 40
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                10402
+            ],
+            "id": 47774,
+            "original_language": "en",
+            "original_title": "DJ Q.bert's Wave Twisters",
+            "overview": "A crew of heroes is determined to save the lost arts of Hip Hop. Break Dancing, Graffiti, MCing, and DJing from total extinction. The lost arts are being oppressed throughout inner-space by lord Ook and his evil minions the Chinheads. The dental commander Dr. Julio Azul DDS, assumed to be secretary Honey Drips, Dental Hygienist/Robot Rubbish, and Grandpa have a series of adventures, synch'd to the music. Armed with the ancient relic known as the Wave Twister (a small turntable/wristwatch, the only weapon powerful enough to defeat the enemies), they travel to the far ends of inner-space for a final confrontation with the sinister army of oppressors.",
+            "popularity": 3.297,
+            "poster_path": "/9iLjS8o9O0stRIHwfYlqONVwMnv.jpg",
+            "release_date": "2001-01-23",
+            "title": "DJ Q.bert's Wave Twisters",
+            "video": false,
+            "vote_average": 7.3,
+            "vote_count": 6
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/88WBPXCGrpf3U6WlGc0dd3em21t.jpg",
+            "genre_ids": [
+                28,
+                878,
+                12
+            ],
+            "id": 16268,
+            "original_language": "en",
+            "original_title": "War of the Worlds 2: The Next Wave",
+            "overview": "Two years after the Martian invasion, George Herbert's worst fears are realized: The Aliens have returned. As a second wave of Martian walkers lay waste to what's left of Earth, an alliance of military forces prepares a daring attack on the Red Planet itself. Once again, the future of mankind hangs in the balance.",
+            "popularity": 9.05,
+            "poster_path": "/n2Ug9I6zRmFyUDlAdJO7cTR5yDC.jpg",
+            "release_date": "2008-02-01",
+            "title": "War of the Worlds 2: The Next Wave",
+            "video": false,
+            "vote_average": 4,
+            "vote_count": 39
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/rXziZE0kOSdtD9IqP5dMN8BA1Un.jpg",
+            "genre_ids": [
+                10749,
+                12,
+                18
+            ],
+            "id": 251979,
+            "original_language": "en",
+            "original_title": "The Perfect Wave",
+            "overview": "The true story of Ian McCormack who grew up surfing the waters of New Zealand. Wanting to dive deeper, Ian sets out on a journey with his best friend that will change his life as they chase the perfect wave.",
+            "popularity": 2.848,
+            "poster_path": "/sRbFTl2OkANyTm26IbwUZ3Vr3ay.jpg",
+            "release_date": "2014-02-28",
+            "title": "The Perfect Wave",
+            "video": false,
+            "vote_average": 5,
+            "vote_count": 36
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/lJEqpSffIvEYd1DhjOZwdWfFrJH.jpg",
+            "genre_ids": [
+                28,
+                878,
+                53
+            ],
+            "id": 38108,
+            "original_language": "en",
+            "original_title": "Tidal Wave: No Escape",
+            "overview": "A retired and disgruntled scientist is brought out of retirement to explain why tidal waves are wiping out coastal communities. But is he part of the problem?",
+            "popularity": 3.649,
+            "poster_path": "/rGdsAeTe1q5CNW2h8HPbcxB2Ezf.jpg",
+            "release_date": "1997-01-01",
+            "title": "Tidal Wave: No Escape",
+            "video": false,
+            "vote_average": 5,
+            "vote_count": 8
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/6dIhLGx6wKYx2aCxaC6hSb9nVPF.jpg",
+            "genre_ids": [
+                99
+            ],
+            "id": 62043,
+            "original_language": "en",
+            "original_title": "The Ultimate Wave: Tahiti",
+            "overview": "Featuring ten-time world surfing champion Kelly Slater, The Ultimate Wave follows a quest to find the perfect wave-riding experience. Filmed in Tahiti and among the islands of French Polynesia, the film showcases dramatic giant screen surfing action in a unique Pacific paradise.",
+            "popularity": 3.098,
+            "poster_path": "/xeYDvc2HA8Vc6emxwcugQ02Qx7X.jpg",
+            "release_date": "2010-02-12",
+            "title": "The Ultimate Wave: Tahiti",
+            "video": false,
+            "vote_average": 7.7,
+            "vote_count": 7
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/vIgLVjNlj5NEshSn8GvV39ZzMI2.jpg",
+            "genre_ids": [
+                18
+            ],
+            "id": 99534,
+            "original_language": "en",
+            "original_title": "Beautiful Wave",
+            "overview": "In Santa Cruz for the summer, a young woman discovers the sport of surfing -- and a family secret as well.",
+            "popularity": 1.952,
+            "poster_path": "/8950LBAaiBUrVGq1512jMSRHAoG.jpg",
+            "release_date": "2011-01-01",
+            "title": "Beautiful Wave",
+            "video": false,
+            "vote_average": 4.9,
+            "vote_count": 4
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                27
+            ],
+            "id": 274257,
+            "original_language": "en",
+            "original_title": "The First Wave",
+            "overview": "Following the outbreak of an aggressive virus, a young woman awakes in a hospital bed. As the horrifying events that led her there are revealed, it becomes clear that the cure is just the beginning. This short film is a prequel for the feature film, The Third Wave, which was written at the Binger FilmLab 2012. The project also won the Best Story Pitch award at the Edinburgh Film Festival, June 2012.",
+            "popularity": 2.436,
+            "poster_path": null,
+            "release_date": "2014-01-10",
+            "title": "The First Wave",
+            "video": false,
+            "vote_average": 5,
+            "vote_count": 5
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/knfbkEZ88kS3HnQDxRT6jPSyfj.jpg",
+            "genre_ids": [
+                99
+            ],
+            "id": 573481,
+            "original_language": "en",
+            "original_title": "Big Wave",
+            "overview": "Big Wave is a documentary directed by Walt Mulconery and published on May 25, 1984 that presents the types of outdoor and risky sports present on the west coast of the United States such as paragliding, surfing, skydiving, bmx or the BASE jumping together with others, going from Hawaii to Texas through California to present them.",
+            "popularity": 1.789,
+            "poster_path": "/ujnVFJBpg4lw7bnE15NR2fDpFy6.jpg",
+            "release_date": "1984-05-25",
+            "title": "Big Wave",
+            "video": false,
+            "vote_average": 5,
+            "vote_count": 1
+        }
+    ],
+    "total_pages": 22,
+    "total_results": 436
+}
