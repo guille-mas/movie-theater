@@ -44,7 +44,7 @@ build:
 
 # install third party libraries required by dev environment
 setup:
-	docker-compose run --rm ${PROJECT_NAME} yarn install
+	docker-compose run --rm ${PROJECT_NAME} yarn
 
 # wipe any docker image and containers
 clean:

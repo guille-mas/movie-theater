@@ -1,29 +1,37 @@
 import React from 'react';
 import './App.scss';
-import { Logo, Star, Search, Expand, Close, ArrowLeft, ArrowRight } from './icons';
+import { Star } from './icons';
 
 function App() {
   return (
     <div className="App">
-      <div className="grid grid-flow-col grid-cols-3 grid-rows-3 gap-4">
-        <div>1</div>
-        <div>2</div>
-        <div>3</div>
-        <div>4</div>
-        <div>5</div>
-        <div>6</div>
-        <div>7</div>
-        <div>8</div>
-        <div>9</div>
+      <div id="search-component">
+        <form>
+          <fieldset>
+            <input type="search" name="filter-text" placeholder="Search..."/>
+            <div id="filter-rating">
+              <Star/>
+              <Star/>
+              <Star/>
+              <Star/>
+              <Star/>
+            </div>
+          </fieldset>
+        </form>
       </div>
-      <Logo/>
-      <Star/>
-      <Search/>
-      <Expand/>
-      <Close/>
-      <ArrowLeft/>
-      <ArrowRight/>
-
+      <div id="movie-list-component">
+        <ol className="">
+          <li className="movie">Movie Title</li>
+          <li className="movie">Movie Title</li>
+          <li className="movie">Movie Title</li>
+          <li className="movie">Movie Title</li>
+          <li className="movie">Movie Title</li>
+          <li className="movie">Movie Title</li>
+          <li className="movie">Movie Title</li>
+          <li className="movie">Movie Title</li>
+          <li className="movie">Movie Title</li>
+        </ol>
+      </div>
     </div>
   );
 }
