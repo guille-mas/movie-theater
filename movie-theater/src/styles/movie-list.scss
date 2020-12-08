@@ -1,0 +1,24 @@
+
+#movie-list-component {
+    ol {
+        text-align: center;
+        display: block;
+        margin: 0;
+        padding-inline-start: 0;
+        li.movie {
+            min-width: 12rem;
+            width: 26%;
+            padding: 1%;
+            margin: 1rem;
+            display: inline-grid;
+            height: 15rem;
+            border-radius: 6px;
+            border: solid 1px lightgrey;
+            font-size: 1.2rem;
+            cursor: pointer;
+            &:hover {
+                opacity: 1;
+            }
+        }
+    }
+}
