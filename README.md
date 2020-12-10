@@ -40,4 +40,3 @@ This is the recommended way to go to install new npm packages or run node script
 - `make run` runs any command inside a development container.
 - `make clean` removes any docker artifact.
 - `make build` will bake your own docker artifacts.
-- `make deploy` will deploy to an AWS S3 bucket, served through CloudFront for faster load times
