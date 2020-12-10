@@ -8,9 +8,10 @@ function Search(props: {query: string, onChange: CallableFunction}) {
     const handleChange = (e: any) => {
         e.preventDefault();
         const newVal = !!e.target.value ? e.target.value : '';
-
-        setQuery(newVal);
-        props.onChange(e.target.value || '');
+        if(newVal !== query) {
+            setQuery(newVal);
+            props.onChange(e.target.value || '');
+        }
     }
 
     const handleSubmit = (e: any) => {
