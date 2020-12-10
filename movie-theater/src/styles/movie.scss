@@ -1,15 +1,16 @@
 li.movie {
-    min-width: 12rem;
-    width: 26%;
-    padding: 1%;
-    margin: 1rem;
+    width: 10rem;
+    margin: 2rem;
     display: inline-grid;
     height: 15rem;
-    border-radius: 6px;
+    border-radius: 12px;
     border: solid 1px lightgrey;
     font-size: 1.2rem;
     cursor: pointer;
     &:hover {
         opacity: 1;
     }
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.03) 80%, rgba(0, 0, 0, 0.1) 150%);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
