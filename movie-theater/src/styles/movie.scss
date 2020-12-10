@@ -7,10 +7,27 @@ li.movie {
     border: solid 1px lightgrey;
     font-size: 1.2rem;
     cursor: pointer;
-    &:hover {
-        opacity: 1;
-    }
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.03) 80%, rgba(0, 0, 0, 0.1) 150%);
     background-repeat: no-repeat;
     background-size: cover;
+    overflow: hidden;
+
+    &.current {
+        float:left;
+        width: 90%;
+        margin-left: 5%;
+        height: 30rem;
+        background-size: contain;
+        .details {
+            display: inline-block;
+        }
+    }
+
+    .details {
+        display: none;
+        margin-left: 21rem;
+        margin-right: 1rem;
+        text-align: left;
+        line-height: 2em;
+    }
 }
