@@ -6,6 +6,7 @@ function Movie(props: {movie: IMovie, showDetails: boolean, onClick: CallableFun
     const handleClick = () => props.onClick(props.movie.id);
 
     return (
+        props.movie.poster_path ?
         <li 
             className={`movie ${computedClasses.join(' ')}`}
             style={{backgroundImage: `url(https://image.tmdb.org/t/p/w342/${props.movie.poster_path})`}}
@@ -17,6 +18,8 @@ function Movie(props: {movie: IMovie, showDetails: boolean, onClick: CallableFun
                 <p>{props.movie.overview}</p>
             </div>
         </li>
+        : 
+        null
     );
 }
 
