@@ -38,7 +38,7 @@ function App() {
 
   return (
     <div className="App">
-        <Search query={filter.query} onChange={(val: string) => updateSearch(val)}/>
+        <Search query={filter.query} onChange={updateSearch}/>
         <MovieList movies={items}/>
       </div>
   )

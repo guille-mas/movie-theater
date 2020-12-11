@@ -1,4 +1,4 @@
-$breakpoint-tablet: 680px;
+@import './common.scss';
 
 li.movie {
     width: 10rem;
@@ -13,6 +13,7 @@ li.movie {
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
+    user-select: none;
 
     h1 {
         font-size: 2rem;
@@ -39,18 +40,16 @@ li.movie {
 
         .details {
             display: inline-block;
-            margin: 37rem 1rem 1rem 1rem;
-            @media (min-width: $breakpoint-tablet) {
-                margin: 1rem 1rem 1rem 21rem;
-            }
         }
     }
 
     .details {
         display: none;
-        margin-left: 21rem;
-        margin-right: 1rem;
         text-align: left;
         line-height: 2em;
+        margin: 33rem 1rem 1rem 1rem;
+        @media (min-width: $breakpoint-tablet) {
+            margin: 1rem 1rem 1rem 22rem;
+        }
     }
 }

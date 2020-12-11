@@ -3,9 +3,7 @@ import {IMovie} from './movie.interface';
 
 function Movie(props: {movie: IMovie, showDetails: boolean, onClick: CallableFunction}) {
     const computedClasses: string[] = props.showDetails ? ['current'] : [];
-    const handleClick = () => {
-        props.onClick(props.movie.id);
-    };
+    const handleClick = () => props.onClick(props.movie.id);
 
     return (
         <li 
