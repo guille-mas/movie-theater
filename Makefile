@@ -25,11 +25,12 @@ run:
 exec:
 	@read -p "Write a command to run inside a disposable development container: " command; \
 		docker-compose exec ${PROJECT_NAME} \
-			bash -c "$$command"
+			sh -c "$$command"
 
 
 # build docker images
 build:
+	-rm -rf ./${PROJECT_NAME}/node_modules
 	docker build -f ./docker/Dockerfile -t guillermomaschwitz/${PROJECT_NAME}:${PROJECT_VERSION} \
 		-t guillermomaschwitz/${PROJECT_NAME}:${PROJECT_VERSION}-production \
 		--target prod \
@@ -52,9 +53,9 @@ clean:
 	docker image rm -f guillermomaschwitz/${PROJECT_NAME}:${PROJECT_VERSION}
 	docker image rm -f guillermomaschwitz/${PROJECT_NAME}:${PROJECT_VERSION}-production
 
-# open a bash session inside the container
-bash:
-	docker-compose exec ${PROJECT_NAME} bash
+# open a sh session inside the container
+sh:
+	docker-compose exec ${PROJECT_NAME} sh
 
 # deploy to AWS S3 + Cloudfront
 #deploy:
