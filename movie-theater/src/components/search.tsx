@@ -1,8 +1,8 @@
 import {useState} from 'react';
 import './search.scss'
-import { Star } from './Icons';
+import Rating from './rating';
 
-function Search(props: {query: string, onChange: CallableFunction}) {
+function Search(props: {query: string, rating: number, onChange: CallableFunction}) {
     const [query, setQuery] = useState(props.query);
 
     const handleChange = (e: any) => {
@@ -29,13 +29,7 @@ function Search(props: {query: string, onChange: CallableFunction}) {
                         placeholder="Search..."
                         autoFocus={true}
                 />
-                <div id="filter-rating">
-                    <Star/>
-                    <Star/>
-                    <Star/>
-                    <Star/>
-                    <Star/>
-                </div>
+                <Rating value={props.rating} />
             </fieldset>
             </form>
         </div>

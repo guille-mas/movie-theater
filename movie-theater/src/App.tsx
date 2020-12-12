@@ -36,7 +36,7 @@ function App() {
 
   return (
     <div className="App">
-        <Search query={userPref.query} onChange={updateSearch}/>
+        <Search query={userPref.query} rating={userPref.rating || 0} onChange={updateSearch}/>
         <MovieList movies={items}/>
       </div>
   )

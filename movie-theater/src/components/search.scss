@@ -24,30 +24,6 @@ input[type="search"] {
     }    
 }
 
-#filter-rating {
-    margin-top: .5rem;
-    padding: .3rem;
-    text-align: center;
-    display: inline-flex;
-    flex-flow: row-reverse;
-    width: 15rem;
-
-    @media (min-width: $breakpoint-tablet) {
-        margin-top: 0;
-        float: right;
-    }
-
-    .icon {
-        path {
-            stroke-width: 1!important;
-        }
-    }
-    .icon:hover svg,
-    .icon:hover ~ .icon svg {
-        fill: orange;
-    }
-}
-
 
 #search-component {
     position: fixed;
@@ -61,4 +37,19 @@ input[type="search"] {
     text-align: center;
     margin-top: 0;
     padding-top: 1.5rem;
+
+    #rating {
+        margin-top: .5rem;
+        width: 15rem;
+
+        @media (min-width: $breakpoint-tablet) {
+            margin-top: 0;
+            float: right;
+        }
+
+        .icon:hover svg,
+        .icon:hover ~ .icon svg {
+            fill: orange;
+        }
+    }
 }

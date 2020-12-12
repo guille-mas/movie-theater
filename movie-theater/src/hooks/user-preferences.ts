@@ -11,7 +11,7 @@ export const usePreferences = (): [IPreference, CallableFunction] => {
 
   let userPref: IPreference = {
     query: '',
-    rating: 0,
+    rating: 4,
     currentMovie: null
   };
   let storedPref: string|null = localStorage.getItem(cacheKey);

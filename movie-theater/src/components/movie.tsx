@@ -1,5 +1,6 @@
 import './movie.scss';
 import {IMovie} from '../interfaces/movie.interface';
+import Rating from './rating';
 
 function Movie(props: {movie: IMovie, showDetails: boolean, onClick: CallableFunction}) {
     const computedClasses: string[] = props.showDetails ? ['current'] : [];
@@ -15,6 +16,7 @@ function Movie(props: {movie: IMovie, showDetails: boolean, onClick: CallableFun
             <div className="details">
                 <h1>{props.movie.title}</h1>
                 <h2>{props.movie.release_date}</h2>
+                <Rating value={props.movie.vote_average} />
                 <p>{props.movie.overview}</p>
             </div>
         </li>

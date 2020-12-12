@@ -1,0 +1,18 @@
+
+#rating {
+    padding: .3rem;
+    text-align: center;
+    display: inline-flex;
+    flex-flow: row-reverse;
+    
+    .icon {
+        path {
+            stroke-width: 1!important;
+        }
+    }
+    
+
+    .icon.on svg {
+        fill: orange;
+    }
+}
