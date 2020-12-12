@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import './styles/App.scss';
-import MovieList from './movie-list';
-import Search from './search';
-import {IMovie} from './movie.interface';
-import {usePreferences} from './user-preferences';
+import './App.scss';
+import MovieList from './components/movie-list';
+import Search from './components/search';
+import {IMovie} from './interfaces/movie.interface';
+import {usePreferences} from './hooks/user-preferences';
 
 function App() {
   const [, setError] = useState(null);

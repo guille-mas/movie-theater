@@ -1,5 +1,5 @@
-import './styles/movie.scss';
-import {IMovie} from './movie.interface';
+import './movie.scss';
+import {IMovie} from '../interfaces/movie.interface';
 
 function Movie(props: {movie: IMovie, showDetails: boolean, onClick: CallableFunction}) {
     const computedClasses: string[] = props.showDetails ? ['current'] : [];

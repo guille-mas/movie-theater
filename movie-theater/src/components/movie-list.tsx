@@ -1,7 +1,7 @@
-import './styles/movie-list.scss';
-import {IMovie} from './movie.interface';
+import './movie-list.scss';
+import {IMovie} from '../interfaces/movie.interface';
 import Movie from './movie';
-import {usePreferences} from './user-preferences';
+import {usePreferences} from '../hooks/user-preferences';
 
 function MovieList(props: {movies: IMovie[]}) {
     const [userPref, setUserPref] = usePreferences();

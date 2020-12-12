@@ -1,5 +1,5 @@
 import {useState} from 'react';
-import './styles/search.scss'
+import './search.scss'
 import { Star } from './Icons';
 
 function Search(props: {query: string, onChange: CallableFunction}) {
