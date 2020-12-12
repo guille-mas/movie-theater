@@ -1,16 +1,14 @@
 import React, { useState, useEffect } from 'react';
-import './App.scss';
+import './styles/App.scss';
 import MovieList from './movie-list';
 import Search from './search';
 import {IMovie} from './movie.interface';
+import {usePreferences} from './user-preferences';
 
 function App() {
   const [, setError] = useState(null);
   const [items, setItems] = useState(new Array<IMovie>());
-  const [filter, setFilter] = useState({
-    query: '',
-    rating: null,
-  })
+  const [userPref, setUserPref] = usePreferences();
 
   const fetchDiscoveryList = () => {
     return fetch("https://api.themoviedb.org/3/discover/movie?api_key=47f2842a8a3f8df7deacda419a093d86&language=en-US&sort_by=popularity.desc&include_adult=false&include_video=false&page=1")
@@ -25,20 +23,20 @@ function App() {
   }
 
   const updateSearch = (query: string) => {
-    setFilter({...filter, ...{query: query}});
+    setUserPref({...userPref, ...{query: query}});
   }
 
   useEffect(()=>{
-    if(filter.query.length) {
-      fetchList(filter.query);
+    if(userPref.query.length) {
+      fetchList(userPref.query);
     } else {
       fetchDiscoveryList();
     }
-  }, [filter.query])
+  }, [userPref.query])
 
   return (
     <div className="App">
-        <Search query={filter.query} onChange={updateSearch}/>
+        <Search query={userPref.query} onChange={updateSearch}/>
         <MovieList movies={items}/>
       </div>
   )
