@@ -6,6 +6,9 @@ import {IMovie} from './interfaces/movie.interface';
 import {usePreferences} from './hooks/user-preferences';
 import {useApi} from './hooks/api';
 
+/**
+ * Main component
+ */
 function App() {
   const [items, setItems] = useState(new Array<IMovie>());
   const [userPref, setUserPref] = usePreferences();
