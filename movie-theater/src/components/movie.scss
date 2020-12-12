@@ -23,8 +23,8 @@ li.movie {
         font-size: 1.3rem;
     }
 
-    
     &.current {
+        transition: height 1s;
         float:right;
         width: 90%;
         margin-right: 5%;
@@ -39,7 +39,21 @@ li.movie {
         }
 
         .details {
+            text-align: center;
             display: inline-block;
+
+            @media (min-width: $breakpoint-tablet) {
+                text-align: left;
+            }
+
+            #rating {
+                width: 10rem;
+                padding: 0;
+            }
+
+            .overview {
+                text-align: left;
+            }
         }
     }
 

@@ -15,9 +15,9 @@ function Movie(props: {movie: IMovie, showDetails: boolean, onClick: CallableFun
         >
             <div className="details">
                 <h1>{props.movie.title}</h1>
-                <h2>{props.movie.release_date}</h2>
                 <Rating value={props.movie.vote_average} />
-                <p>{props.movie.overview}</p>
+                <h2>{props.movie.release_date}</h2>
+                <p className="overview">{props.movie.overview}</p>
             </div>
         </li>
         : 
