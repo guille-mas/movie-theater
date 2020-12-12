@@ -7,7 +7,9 @@ function MovieList(props: {movies: IMovie[]}) {
     const [userPref, setUserPref] = usePreferences();
     const listLen = props.movies.length;
 
-    const updateCurrentMovie = (id: number) => setUserPref({...userPref, ...{currentMovie: id}});
+    const updateCurrentMovie = (id: number) => {
+        setUserPref({...userPref, ...{currentMovie: id}});
+    }
 
     return (
         <div id="movie-list-component">

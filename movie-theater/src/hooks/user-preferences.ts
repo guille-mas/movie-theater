@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 
 interface IPreference {
     query: string;
@@ -21,13 +21,10 @@ export const usePreferences = (): [IPreference, CallableFunction] => {
   
   const [preferences, setPreferences] = useState(userPref);
 
-  useEffect(() => {
-    function handleChange(preferences: IPreference) {
-        setPreferences(preferences);
-        localStorage.setItem(cacheKey, JSON.stringify(preferences));
-    }
-    return handleChange(preferences);
-  }, [preferences]);
+  const changePreferences = (preferences: IPreference) => {
+    setPreferences(preferences);
+    localStorage.setItem(cacheKey, JSON.stringify(preferences));
+  }
 
-  return [preferences, setPreferences];
+  return [preferences, changePreferences];
 }

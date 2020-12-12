@@ -1,4 +1,4 @@
-import {useState, useEffect} from 'react';
+import {useState} from 'react';
 import './search.scss'
 import Rating from './rating';
 
@@ -8,14 +8,14 @@ function Search(props: {query: string, rating: number, onChange: CallableFunctio
 
     const handleChange = (e: any) => {
         e.preventDefault();
-        const newVal = !!e.target.value ? e.target.value : '';
-        if(newVal !== query) {
-            setQuery(newVal);
+        const newQuery = !!e.target.value ? e.target.value : '';
+        if(newQuery !== query) {
+            setQuery(newQuery);
+            props.onChange({
+                query: newQuery,
+                rating: rating
+            });
         }
-        props.onChange({
-            query: newVal,
-            rating: rating
-        });
     }
 
     const handleSubmit = (e: any) => {
@@ -23,19 +23,14 @@ function Search(props: {query: string, rating: number, onChange: CallableFunctio
     }
 
     const handleRatingChange = (newRating: number) => {
-        setRating(newRating);
-        props.onChange({
-            query: query,
-            rating: newRating
-        });
+        if(newRating !== rating) {
+            setRating(newRating);
+            props.onChange({
+                query: query,
+                rating: newRating
+            });
+        }
     };
-
-    useEffect(()=> {
-        props.onChange({
-            query: props.query,
-            rating: props.rating
-        });
-    },[props]);
 
     return (
         <div id="search-component">
@@ -48,7 +43,7 @@ function Search(props: {query: string, rating: number, onChange: CallableFunctio
                         placeholder="Search..."
                         autoFocus={true}
                 />
-                <Rating value={props.rating} onChange={handleRatingChange} />
+                <Rating value={rating} onChange={handleRatingChange} />
             </fieldset>
             </form>
         </div>

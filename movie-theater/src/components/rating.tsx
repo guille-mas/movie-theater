@@ -10,8 +10,10 @@ function Rating(props: {value: number, onChange?: CallableFunction}) {
         if(!!props.onChange && !isNaN(idx)){
             const newRating = (5-idx)*2;
             const ratingValue = newRating === props.value ? 0 : newRating;
-            props.onChange(ratingValue);
-            return ratingValue;
+            if(ratingValue !== props.value) {
+                console.log('rating changed to ', ratingValue)
+                props.onChange(ratingValue);
+            }
         }
     }
 
